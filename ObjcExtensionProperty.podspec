@@ -29,7 +29,10 @@ Convenient objc getter/setter adding for classes and extensions.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '5.0'
-
+  s.osx.deployment_target = '10.9'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '3.0'
+  
   s.source_files = 'ObjcExtensionProperty/Classes/**/*'
   
   # s.resource_bundles = {
